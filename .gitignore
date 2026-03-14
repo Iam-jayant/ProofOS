@@ -1,0 +1,78 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Terraform
+*.tfvars
+!*.tfvars.example
+*.tfstate
+*.tfstate.*
+.terraform/
+*.pem
+
+# Node / Next.js / React
+node_modules/
+.next/
+out/
+dist/
+build/
+.turbo/
+.vercel/
+coverage/
+*.tsbuildinfo
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# TypeScript / tooling caches
+.eslintcache
+.stylelintcache
+.cache/
+
+# Rust / Cargo
+target/
+Cargo.lock
+**/Cargo.lock
+
+# Rust tooling
+*.rlib
+*.rmeta
+
+# Foundry / Solidity
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/
+
+# Proof artifacts / binaries (SP1-style)
+proof.bin
+public_values.bin
+verification_key.bin
+*.elf
+*.riscv
+*.bin
+
+# Agent and research
+AGENTS.md
+PLAN.md
+RESEARCH.md
+TAX_RULES.md
+TASKS.md
+
+# Helper scripts
+scripts/
