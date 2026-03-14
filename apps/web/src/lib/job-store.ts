@@ -54,4 +54,14 @@ export const jobStore = {
   has(jobId: string): boolean {
     return store.has(jobId);
   },
+
+  findByStarknetTxHash(txHash: string): ProofJob | undefined {
+    const target = txHash.toLowerCase();
+    for (const job of store.values()) {
+      if (job.result?.starknet_tx_hash?.toLowerCase() === target) {
+        return job;
+      }
+    }
+    return undefined;
+  },
 };

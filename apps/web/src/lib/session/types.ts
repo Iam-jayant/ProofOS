@@ -66,6 +66,7 @@ export interface TaxSummary {
 }
 
 export interface ProofArtifacts {
+  jobId?: string;
   ledgerCommitment: string; // hex encoded SHA256
   totalTaxPaisa: number;
   userTypeCode: number;
