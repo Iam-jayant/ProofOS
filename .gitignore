@@ -1,5 +1,7 @@
 # OS / editor
 .DS_Store
+Thumbs.db
+desktop.ini
 .idea/
 .vscode/
 *.swp
@@ -11,6 +13,7 @@
 # Env / secrets
 .env
 .env.*
+*.env.local
 !.env.example
 
 # Terraform

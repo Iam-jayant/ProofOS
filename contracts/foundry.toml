@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# No remappings needed — TaxVerifier.sol no longer depends on SP1 contracts.
+# remappings = []
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
