@@ -165,13 +165,6 @@ Then set values in .env as needed for deployment scripts.
 
 ## Deploy guide
 
-### Web (Vercel)
-
-1. Import repository in Vercel.
-2. Set root directory to apps/web.
-3. Use npm install and npm run build.
-4. Add required environment variables.
-
 ### EVM contracts (Foundry)
 
 ```bash
